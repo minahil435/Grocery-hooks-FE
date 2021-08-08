@@ -1,16 +1,14 @@
-import React, { Component } from "react";
-import Grocery from "./components/GroceryList/Grocery";
-import Header from "./components/Header/Header";
+import React from "react";
+import Grocery from "./components/Grocery";
+import Header from "./components/Header";
 
-export class App extends Component {
-  render() {
+function App() {
     return (
       <div>
         <Header />
         <Grocery />
       </div>
     );
-  }
 }
 
 export default App;
